@@ -2,13 +2,11 @@ import { ReactNode } from "react";
 
 interface ComponentProps {
   variant?: "primary" | "secondary" | "outline";
-  isFullSize?: boolean;
   children: ReactNode;
 }
 
 const Buttons = ({
   variant = "primary",
-  isFullSize,
   children,
 }: ComponentProps) => {
   return (

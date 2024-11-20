@@ -42,7 +42,7 @@ const PricingCard = ({
           /{mode === "monthly" ? "month" : "year"}
         </small>
       </h1>
-      <Buttons variant={isMostPopular ? "primary" : "secondary"} isFullSize>
+      <Buttons variant={isMostPopular ? "primary" : "secondary"}>
         buy plan
       </Buttons>
       <ul className="space-y-4">
